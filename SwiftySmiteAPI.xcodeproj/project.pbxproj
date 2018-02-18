@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		4C8667B1203A03B7003F04F1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4C97376E2039E13500CBB1F7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		4C97376F2039E13500CBB1F7 /* SwiftySmiteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySmiteAPI.swift; sourceTree = "<group>"; };
 		4C9737702039E13500CBB1F7 /* SwiftyMD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMD5.swift; sourceTree = "<group>"; };
@@ -19,6 +20,7 @@
 				4C97376F2039E13500CBB1F7 /* SwiftySmiteAPI.swift */,
 				4C97376E2039E13500CBB1F7 /* SwiftyJSON.swift */,
 				4C9737702039E13500CBB1F7 /* SwiftyMD5.swift */,
+				4C8667B1203A03B7003F04F1 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
