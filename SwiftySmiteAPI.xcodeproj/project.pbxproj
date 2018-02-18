@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXGroup section */
+		4C9737672039E12300CBB1F7 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4C9737682039E12300CBB1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+			};
+			buildConfigurationList = 4C97376B2039E12300CBB1F7 /* Build configuration list for PBXProject "SwiftySmiteAPI" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C9737672039E12300CBB1F7;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4C97376C2039E12300CBB1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4C97376D2039E12300CBB1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C97376B2039E12300CBB1F7 /* Build configuration list for PBXProject "SwiftySmiteAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C97376C2039E12300CBB1F7 /* Debug */,
+				4C97376D2039E12300CBB1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C9737682039E12300CBB1F7 /* Project object */;
+}
