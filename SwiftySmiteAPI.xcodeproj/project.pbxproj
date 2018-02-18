@@ -6,10 +6,19 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXFileReference section */
+		4C97376E2039E13500CBB1F7 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		4C97376F2039E13500CBB1F7 /* SwiftySmiteAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftySmiteAPI.swift; sourceTree = "<group>"; };
+		4C9737702039E13500CBB1F7 /* SwiftyMD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyMD5.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		4C9737672039E12300CBB1F7 = {
 			isa = PBXGroup;
 			children = (
+				4C97376F2039E13500CBB1F7 /* SwiftySmiteAPI.swift */,
+				4C97376E2039E13500CBB1F7 /* SwiftyJSON.swift */,
+				4C9737702039E13500CBB1F7 /* SwiftyMD5.swift */,
 			);
 			sourceTree = "<group>";
 		};
