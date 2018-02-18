@@ -15,6 +15,34 @@ Since this is a Framework written in Swift and designed to be used in Applicatio
 You might need to add a PList so the app is allowed to use http connections.
 Create an entry called "App Transport Security Settings" in the plist-file, under that add an entry for "Allow Arbitrary Loads" and set it to true. 
 
+### Usage
+
+Create an object with your dev-id, authkey and settings you choose
+
+```
+let smite = SwiftySmiteAPI(devID: "your-dev-id-here", authKey: "your-authkey-here", platform: .SmitePC, format: .json)
+```
+
+Then create a session, make sure to handle errors
+
+```
+do {
+    try smite.createSession()
+    } catch {
+    print(error)
+    //do some error handling
+}
+```
+
+Make sure that you have an active session before making calls
+
+```
+if smite.testSession() {
+    //do stuff here
+}
+```
+
+
 ## Built With
 
 * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - A Framework used to parse JSON data
